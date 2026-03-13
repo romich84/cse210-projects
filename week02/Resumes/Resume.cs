@@ -1,4 +1,7 @@
-﻿namespace Resumes;
+﻿using System;
+using System.Collections.Generic;
+
+namespace Resumes;
 
 public class Resume
 {

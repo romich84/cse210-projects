@@ -1,4 +1,6 @@
-﻿namespace Resumes;
+﻿using System;
+
+namespace Resumes;
 
 public class Job
 {
