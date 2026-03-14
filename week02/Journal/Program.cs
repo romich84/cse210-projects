@@ -22,8 +22,6 @@ class Program
         newPrompt._prompts.Add("What did you learn today?");
 
         JournalApp.Journal journal = new JournalApp.Journal();
-        
-        journal.SaveToFile(Path.Combine(Directory.GetCurrentDirectory(), "myJournal.txt"));
         Menu(journal, newPrompt);
     }
     static void DisplayWelcomeMessage()
